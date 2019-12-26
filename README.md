@@ -1,5 +1,5 @@
 # ElasticPS
-### PowerShell functions for worcking with ElasticSearch
+### PowerShell functions for working with ElasticSearch
 ##### Using the function you can:
 - search
 - search witch partition
