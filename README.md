@@ -43,4 +43,5 @@ elk -index "users_index" -action delete_by_query -query '{"query": {"match_all":
 ```
 - custom
 ```sh
+elk -uri_param "_cat/indices" -metod get -action custom
 ```
