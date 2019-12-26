@@ -13,7 +13,7 @@ function elk {
                     $uri_param,
 
                     [Parameter(Mandatory=$true)]
-                    [ValidateSet('search','search_partition','index_create','index_delete','insert_single','insert_bulk','delete_by_query')]
+                    [ValidateSet('search','search_partition','index_create','index_delete','insert_single','insert_bulk','delete_by_query','custom')]
                     $action, # search|search_partition|index_create|index_delete|insert_single|insert_bulk|delete_by_query
                     $query, #search|search_partition|delete_by_query|custom
                     $ins_json_data, # insert_single|insert_bulk
