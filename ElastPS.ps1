@@ -54,7 +54,7 @@ function elk {
                                         }
                     else{$h = "http"}
 
-                    $url = "{0}://{1}:{2}/{3}" -f $h,$srv,$port,$index
+                    $url = "{0}://{1}:{2}/{3}{4}" -f $h,$srv,$port,$index,$uri_param
 
                     switch ($action){
                     "search" {
