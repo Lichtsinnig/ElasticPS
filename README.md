@@ -8,3 +8,7 @@
 - insert (single)
 - insert bulk
 - delete by query
+
+###Examples:
+- search
+>elk -index "win" -action search -query '{"query": {"match_all": {}}}'
